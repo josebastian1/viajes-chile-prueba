@@ -11,3 +11,7 @@
 #quienes-somos p {
     font-weight: 200;
 }
+
+#destacados .card {
+    background-color: rgb(57, 156, 255);
+}
