@@ -1,0 +1,13 @@
+* {
+    font-family: "Open Sans";
+    color: white;
+}
+
+#quienes-somos .text-icon {
+    background-color:rgb(57, 156, 255);
+    font-size: 20pt;
+}
+
+#quienes-somos p {
+    font-weight: 200;
+}

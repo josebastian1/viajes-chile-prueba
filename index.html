@@ -14,9 +14,10 @@
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
 
+    <script src="https://kit.fontawesome.com/5845d2d73c.js" crossorigin="anonymous"></script>
+
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
-
     <link rel="stylesheet" href="./assets/css/styles.css">
     <script defer src="./assets/js/script.js"></script>
 </head>
@@ -54,48 +55,84 @@
     <header>
         <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
-              </div>
+                <div class="carousel-item active">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="...">
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
             </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
             </button>
-          </div>
+        </div>
     </header>
 
-    <main>
-        <section class="bg-black">
-            <h2 class="text-center">QUIENES SOMOS</h2>
-            <div class="container">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut dicta perspiciatis eveniet fugiat corporis quas
-                    totam voluptatum quis officiis, magnam sint possimus necessitatibus saepe similique quos. Hic aliquam
-                    molestiae ea.</p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt iusto veniam, explicabo rem facere dolor
-                    similique obcaecati harum. Porro reprehenderit ea nobis harum quam id a et quas maxime optio!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores odit cupiditate voluptatibus quibusdam
-                    possimus, beatae dolore, facere perferendis sed maxime incidunt porro ab laborum amet dolorem unde atque
-                    aspernatur vitae!</p>
+    <main class="bg-black">
+        <section id="quienes-somos" class="container d-none d-md-block">
+            <h2 class="text-center pt-5 pb-4">¿QUIÉNES SOMOS?</h2>
+            <hr>
+            <div>
+                <div class="row row-cols-3 py-5">
+                    <div class="col">
+                        <div class="text-icon text-center"><i class="fa-solid fa-plane"></i></div>
+                        <p class="text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Molestiae tempora neque rerum officiis mollitia expedita dolor nisi autem inventore dicta
+                            blanditiis quo vero saepe error, harum enim unde asperiores architecto. Lorem ipsum dolor
+                            sit, amet consectetur adipisicing elit. Eveniet nulla, voluptates temporibus iure ea maiores
+                            voluptatibus dolores eaque, odio ex qui dolore totam rem quam culpa quod perspiciatis
+                            expedita libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam eligendi
+                            impedit consectetur. Repellat tenetur, quia totam, ex doloremque, debitis assumenda facilis
+                            deserunt aliquid fuga recusandae magnam modi iusto sequi repudiandae.</p>
+                    </div>
+                    <div class="col">
+                        <p class="text-center text-md-start">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Nesciunt iusto veniam, explicabo
+                            rem facere dolor
+                            similique obcaecati harum. Porro reprehenderit ea nobis harum quam id a et quas maxime
+                            optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam molestias
+                            voluptatum cupiditate consequuntur quaerat, minus nostrum exercitationem odit itaque ut
+                            aliquam eos enim quam accusantium mollitia? Ea veniam explicabo iure. Lorem ipsum dolor sit
+                            amet consectetur adipisicing elit. Architecto explicabo quod tempore corporis id vel nisi
+                            quia nemo non eaque ipsam odio ex, et distinctio dolorum nam quis eos. Hic.</p>
+                            <div class="text-icon text-center"><i class="fa-solid fa-mountain"></i></div>
+                    </div>
+                    <div class="col">
+                        <div class="text-icon text-center"><i class="fa-solid fa-route"></i></div>
+                        <p class="text-center text-md-start">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Maiores odit cupiditate voluptatibus
+                            quibusdam
+                            possimus, beatae dolore, facere perferendis sed maxime incidunt porro ab laborum amet
+                            dolorem unde atque
+                            aspernatur vitae! Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita deserunt
+                            asperiores quasi eaque nostrum quisquam temporibus voluptates eligendi ipsa, id corrupti!
+                            Expedita ipsum necessitatibus dolores itaque reiciendis praesentium doloremque suscipit!
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Est ratione error odio deleniti
+                            omnis dolor sapiente quaerat perferendis reiciendis laboriosam fugiat quos minus, autem
+                            molestiae quibusdam eligendi ducimus? Nisi, tempore.</p>
+                    </div>
+                </div>
             </div>
         </section>
 
-        <section>
-            <h2>Destacados</h2>
+        <section class="container">
+            <div>
+                <h2 class="text-center">DESTACADOS</h2>
+            </div>
         </section>
 
-        <section>Contacto</SECtion>
-            <!-- formulario -->
+        <section>Contacto</section>
+        <!-- formulario -->
     </main>
 
     <footer>
