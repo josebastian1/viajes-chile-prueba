@@ -3,8 +3,19 @@
     color: white;
 }
 
+h1 {
+    font-size: 25pt;
+}
+
+@media (max-width: 768px) {
+    #carouselExampleAutoplaying .carousel-item img {
+      max-height: 360px;
+    }
+  }
+  
+
 #quienes-somos .text-icon {
-    background-color:rgb(57, 156, 255);
+    background-color: rgb(57, 156, 255);
     font-size: 20pt;
 }
 
@@ -14,4 +25,16 @@
 
 #destacados .card {
     background-color: rgb(57, 156, 255);
+}
+
+footer {
+    background-color: rgb(57, 156, 255);
+}
+
+footer div h2 {
+    font-size: 25pt;
+}
+
+#logos-footer {
+    font-size: 25pt;
 }
